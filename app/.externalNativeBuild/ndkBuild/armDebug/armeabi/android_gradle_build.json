@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/Android.mk",
+    "/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/arron_wang/soft/android-ndk-r10e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/build/intermediates/ndkBuild/arm/debug/obj NDK_LIBS_OUT\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/build/intermediates/ndkBuild/arm/debug/lib clean"
+  ],
+  "libraries": {
+    "HelloARNative-armDebug-armeabi": {
+      "buildCommand": "/Users/arron_wang/soft/android-ndk-r10e/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/Application.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-15 NDK_OUT\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/build/intermediates/ndkBuild/arm/debug/obj NDK_LIBS_OUT\u003d/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/build/intermediates/ndkBuild/arm/debug/lib /Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/build/intermediates/ndkBuild/arm/debug/obj/local/armeabi/libHelloARNative.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "HelloARNative",
+      "files": [
+        {
+          "src": "/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/ar.cc",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/../../../../package/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DANDROID\" \"-I/Users/arron_wang/soft/android-ndk-r10e/platforms/android-15/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/helloar.cc",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/../../../../package/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DANDROID\" \"-I/Users/arron_wang/soft/android-ndk-r10e/platforms/android-15/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/renderer.cc",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni/../../../../package/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include\" \"-I/Users/arron_wang/soft/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-DANDROID\" \"-I/Users/arron_wang/soft/android-ndk-r10e/platforms/android-15/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/Users/action_pan/hkfsd/demo/EasyARSDKSamples/Android/HelloARNative/app/build/intermediates/ndkBuild/arm/debug/obj/local/armeabi/libHelloARNative.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cppCompilerExecutable": "/Users/arron_wang/soft/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}
